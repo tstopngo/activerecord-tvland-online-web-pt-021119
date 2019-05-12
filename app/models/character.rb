@@ -11,7 +11,7 @@ class Character < ActiveRecord::Base
     self.show = arg[:name]
   end
   
-   def build_show(arg)
+   def build_network(arg)
     self.show = arg[:name]
   end
 end
