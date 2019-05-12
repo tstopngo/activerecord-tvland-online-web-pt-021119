@@ -1,1 +1,1 @@
-class AddCharacters
+class AddCharacterCatchphrase < ActiveRecord::Migration[4.2]
