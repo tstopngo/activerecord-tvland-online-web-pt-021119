@@ -1,4 +1,4 @@
-class AddCharacterCatchphrase < ActiveRecord::Migration
+class AddCharacterCatchphrase < ActiveRecord::Migration[4.2]
   def change
     add_column :characters, :string, :catchphrase
   end
