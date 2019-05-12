@@ -8,6 +8,6 @@ class Character < ActiveRecord::Base
   end
   
   def build_show(arg)
-  
+    self.show=arg[:name]
   end
 end
