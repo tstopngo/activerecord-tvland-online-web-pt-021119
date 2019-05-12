@@ -8,4 +8,6 @@ class Character < ActiveRecord::Base
   end
   
   def build_show(arg)
+  
+  end
 end
