@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 8) do
+ActiveRecord::Schema.define(version: 7) do
 
   create_table "actors", force: :cascade do |t|
     t.string "first_name"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 8) do
   end
 
 # Could not dump table "characters" because of following StandardError
-#   Unknown type 'catchphrase' for column 'string'
+#   Unknown type '' for column 'string'
 
   create_table "networks", force: :cascade do |t|
     t.string "call_letters"
